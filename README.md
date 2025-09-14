@@ -1,7 +1,7 @@
 Welcome 👋
 <img src="https://img.shields.io/badge/About Me-black.svg?&style=for-the-badge&logo=Handshake&logoColor=white" alt="About Me" />
 
-I’m Sumaira Ashraf, a Business Development Expert with 3+ years of freelance experience helping startups, SMEs, and enterprises grow through effective market research, lead generation, client relationship management, and revenue-focused strategies. Skilled in identifying opportunities, building long-term partnerships, and driving business expansion through innovative solutions. Dedicated to delivering measurable results while maintaining strong communication and collaboration with clients.
+I’m Sumaira Ashraf, a Business Development Expert with 2+ years of freelance experience helping startups, SMEs, and enterprises grow through effective market research, lead generation, client relationship management, and revenue-focused strategies. Skilled in identifying opportunities, building long-term partnerships, and driving business expansion through innovative solutions. Dedicated to delivering measurable results while maintaining strong communication and collaboration with clients.
 
 <img src="https://img.shields.io/badge/Skills & Abilities-black.svg?&style=for-the-badge&logo=Skills&logoColor=white" alt="Skills" />
 
