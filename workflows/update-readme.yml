@@ -1,0 +1,27 @@
+name: Update README with Dynamic Years
+
+on:
+  schedule:
+    - cron: "0 0 1 1 *"   # runs once every year on Jan 1st
+  workflow_dispatch:        # lets you trigger it manually from GitHub Actions tab
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Update README.md
+        run: |
+          START_YEAR=2021
+          CURRENT_YEAR=$(date +'%Y')
+          EXPERIENCE=$((CURRENT_YEAR - START_YEAR))
+          sed -i "s/[0-9]\+ years of freelance experience/$EXPERIENCE years of freelance experience/" README.md
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git commit -am "Auto update experience years"
+          git push
